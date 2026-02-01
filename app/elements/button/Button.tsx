@@ -23,8 +23,12 @@ const Button = ({ children, className = "", url }: ButtonProps) => {
     >
       <div className="relative flex items-center justify-center gap-2 overflow-hidden">
         <span className="relative flex items-center justify-center h-5 md:h-6">
-          <span className="transition-transform duration-300 group-hover:-translate-y-full group-focus:-translate-y-full group-active:-translate-y-full">{children}</span>
-          <span className="absolute top-full transition-transform duration-300 group-hover:translate-y-[-100%] group-focus:translate-y-[-100%] group-active:translate-y-[-100%]">Right Now</span>
+          <span className="transition-transform duration-300 group-hover:-translate-y-full group-focus:-translate-y-full group-active:-translate-y-full">
+            {children}
+          </span>
+          <span className="absolute top-full transition-transform duration-300 group-hover:translate-y-[-100%] group-focus:translate-y-[-100%] group-active:translate-y-[-100%]">
+            Sekarang
+          </span>
         </span>
         <div className="transition-transform duration-300 group-hover:rotate-45 group-focus:rotate-45 group-active:rotate-45">
           <HiOutlineMailOpen className="w-4 h-4" />
