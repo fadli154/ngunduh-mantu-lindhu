@@ -15,7 +15,7 @@ const socials = [
   { label: "Facebook", href: "#", icon: FaFacebook },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/wennytrilandari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    href: "#",
     icon: FaInstagram,
   },
 ];
