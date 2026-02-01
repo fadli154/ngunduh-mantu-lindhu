@@ -136,14 +136,6 @@ export default function Home() {
             variants={imageFade}
             transition={{ delay: 0.6 }}
           >
-            <Image
-              src="/img/lindhu.png"
-              className="relative drop-shadow-md z-30 drop-shadow-text-500/60  right-4 md:-right-5 h-25 w-25 md:h-45 md:w-45 2xl:h-60 2xl:w-60 rounded-t-full md:rounded-b-full"
-              alt="foto-mempelai-pria"
-              width={180}
-              height={180}
-              priority
-            />
             <div className="flex flex-col-reverse mt-3 justify-center items-center relative right-4">
               <p className="text-dark2-600/70 dark:text-white2-500 mt-0 md:mt-2 text-[calc(.6rem+.6vw)] 2xl:text-xl">
                 Putra Pertama dari Bapak Nardi & Ibu Sri Lestari
@@ -178,14 +170,6 @@ export default function Home() {
             variants={imageFade}
             transition={{ delay: 1 }}
           >
-            <Image
-              src="/img/fikha.png"
-              className="relative drop-shadow-md z-30 drop-shadow-text-500/60 left-4 h-25 w-25 md:h-45 md:w-45 2xl:h-60 2xl:w-60 md:-left-5 rounded-t-full md:rounded-b-full"
-              alt="foto-mempelai-wanita"
-              width={180}
-              height={180}
-              priority
-            />
             <div className="flex flex-col-reverse mt-3 justify-center items-center relative left-4">
               <p className="text-dark2-600/70 dark:text-white2-500 mt-0 md:mt-2 text-[calc(.6rem+.6vw)] 2xl:text-xl">
                 Putri pertama dari Bapak Mudi & Ibu Ini Sukarni
