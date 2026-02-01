@@ -60,7 +60,7 @@ export default function FooterSection() {
         </div>
 
         <p className="mt-10 text-xs md:text-sm 2xl:text-base text-muted-foreground">
-          &copy; {new Date().getFullYear()} Agung & Wenny. All rights reserved.
+          &copy; {new Date().getFullYear()} Lindhu & Fikha. All rights reserved.
         </p>
       </div>
     </footer>
