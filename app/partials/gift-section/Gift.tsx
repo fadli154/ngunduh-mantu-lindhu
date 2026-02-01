@@ -134,6 +134,7 @@ export default function GiftSection() {
             rek="0823 2821 8710"
             name="Lindhu Wicaksono Ariardi"
           />
+          <FlipCard bankName="BCA" rek="7620 6254 63" name="Nardi" />
         </div>
       </div>
     </section>
